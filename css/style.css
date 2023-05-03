@@ -1,6 +1,6 @@
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle; 
   }
   
   .logo {
@@ -54,13 +54,13 @@
     padding: 0 10px;
   }
   .navigation {
-    background-color: #333;
+    background-color: #474747;
     color: #fff;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 99;
     padding: 0;
   }
   
@@ -87,5 +87,20 @@
   
   .navigation a:hover {
     background-color: #f00;
+  }
+  footer {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #ff48ce;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
   }
   
